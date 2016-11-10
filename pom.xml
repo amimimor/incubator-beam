@@ -331,7 +331,11 @@
         <artifactId>beam-sdks-java-io-kafka</artifactId>
         <version>${project.version}</version>
       </dependency>
-
+      <dependency>
+        <groupId>org.apache.beam</groupId>
+        <artifactId>beam-sdks-java-io-mqtt</artifactId>
+        <version>${project.version}</version>
+      </dependency>
       <dependency>
         <groupId>org.apache.beam</groupId>
         <artifactId>beam-runners-core-java</artifactId>
